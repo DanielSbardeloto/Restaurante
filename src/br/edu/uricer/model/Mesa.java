@@ -49,7 +49,11 @@ public class Mesa {
         }    
     }
     
-    public void adicionaItem(Produto produto,  BigDecimal quantidade){
-            
+    public void adicionaItem(Produto produto,  BigDecimal quantidade, BigDecimal valorUnitario){
+           Item novoItem = new Item();
+           novoItem.setProduto(produto);
+           novoItem.setQuantidade(quantidade);
+           novoItem.setValorUnitario(valorUnitario);
+           itens.add(novoItem);
     }
 }

@@ -5,25 +5,12 @@
  */
 package br.edu.uricer.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  *
  * @author aluno
  */
 public class Principal {
-    
-  // public static void main(String[] args) {
-        private final List<Mesa> mesas = new ArrayList<>();
-   
-        public List<Mesa> listarMesasLivres = new ArrayList();
+    public static void main(String[] args) {
         
-
-                
-                
-        public void ocuparMesa(Mesa mesa){
-            
-        }
-    //}
+    }
 }

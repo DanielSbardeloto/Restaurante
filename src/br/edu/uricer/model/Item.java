@@ -50,6 +50,6 @@ public class Item {
     }
     
     public void totalizar(){
-        valorTotal = quantidade.multiply(valorUnitario);
+        valorTotal = quantidade.multiply(valorUnitario).setScale(2);
     }
 }
